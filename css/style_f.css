@@ -1,0 +1,89 @@
+@import url("colors.css");
+
+/*MAIN CSS*/
+*{margin:0; padding:0;font-family: 'Saira', sans-serif;}
+body{
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 15px !important;
+    background:  #e6e6e6 !important;
+}
+html{font-size: 10px;}
+a{text-decoration: none!important;color: #fff!important;}
+img{width: 100%; height: auto;}
+span{font-family: inherit;}
+button:focus{outline: none;}
+.m_cl{color: var(--m2color);}
+.gold{color: #ccad00;}
+.error{color: red; font-size: 1.1rem;margin-top: -5px;}
+.clear{clear:both;}
+
+/*FORM*/
+.main_f{
+    border-radius: 25px;
+}
+h4,h5{
+    background: var(--m2color);
+    padding: 25px;
+    color: white !important;
+    font-size: 1.7rem!important;
+    margin: 0 !important;
+    text-align: center;
+}
+h4{border-top-left-radius: 25px;border-top-right-radius: 25px;}
+h5{border-bottom-left-radius: 25px;border-bottom-right-radius: 25px;}
+h5 a{transition: .5s;}
+h5 a:hover{
+    letter-spacing: 2px;
+}
+p{
+    margin: 0 !important;
+    font-size: 1.2rem;
+    text-align: center;
+    padding-top: 8px;
+}
+form{
+    background: #fff;
+    padding: 20px;
+}
+label{display: block!important;font-weight: normal!important;}
+div label .choice{width: 1.4rem; font-weight: normal;}
+button[type="submit"]{display: block; margin: 0 auto; padding: 9px 12px; letter-spacing: 1px; border: none;margin-top: 10px;color: white; background: var(--m2color); border-radius: 15px;transition: .5s;border: 1px solid var(--m2color);}
+button[type="submit"]:hover{background: white; color: var(--m2color);}
+button[type="submit"]:active{transform: scale(.9,.9);}
+.in_2 div{float: left;border: 2px solid var(--m2color);padding: 3px;}
+.in_2 div:nth-child(1){width:25%;border-top-left-radius: 10px;border-bottom-left-radius: 10px;background: var(--m2color);color: white;text-align: center;}
+.in_2 div:nth-child(2){width:75%;border-top-right-radius: 10px;border-bottom-right-radius: 10px;height: 100%;}
+.in_2 div input{border: none;width: 100%;}
+.in_2 div select{border: none; font-size: 10px!important;}
+.ff div:nth-child(1){width: 45%;}
+.ff div:nth-child(2){width: 55%;}
+/*MEDIA QUERIES*/
+@media (orientation: portrait){
+    
+}
+@media (orientation: landscape){
+    
+}
+@media (min-width: 340px){
+
+}
+@media (min-width: 530px){
+    html{font-size: 15px;}
+    h4,h5{padding:35px;}
+}
+@media (min-width: 768px){
+
+}
+@media (min-width: 1024px){
+    
+}
+@media (min-width: 1280px){
+
+}
+@media (min-width: 1600px){
+    
+}
